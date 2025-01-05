@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Signup Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Registration Form</Form></h1>
+        <h1 class="info">Please fill the form below :</Form></h1>
+
+        <h2 class="sample" id="sample1">Sample</h2>
+        <form>
+            <label for="name">Name :</label>
+            <input id="name" placeholder="Enter your name" required>
+            <br>
+            <label for="email">Email :</label>
+            <input id="email" type="email" placeholder="Enter your email" required>
+            <br>
+            <label for="age">Age:</label>
+            <input id="age" type="number" required>
+            <br>
+            <label for="password">Password :</label>
+            <input id="password" type="password" required>
+            <br>
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <p>Hobbies :</p>
+            <input id="reading" type="checkbox">
+            <label for="reading">Reading</label>
+            <br>
+            <input id="writing" type="checkbox">
+            <label for="writing">Writing</label>
+            <br>
+            <input id="singing" type="checkbox">
+            <label for="singing">Singing</label>
+            <br>
+            <input id="dancing" type="checkbox">
+            <label for="dancing">Dancing</label>
+            <br>
+            <br>
+            <label for="country">Country</label>
+            <select id="country">
+                <option>Select your country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="China">China</option>
+            </select>
+            <br>
+            <br>
+            <label for="bio">About yourself :</label>
+            <textarea id="bio" rows="4" cols="30"></textarea>
+            
+            <hr>
+            <!-- <button type="submit">Submit</button> -->
+            <input type="submit">
+            <br>
+            <br>
+
+            <button id="accept1">accept 1</button>
+            <button id="reject1">reject 1</button>
+            <br>
+            <button id="accept2">accept 2</button>
+            <button id="reject2">reject 2</button>
+        </form>
+    </body>
+</html>

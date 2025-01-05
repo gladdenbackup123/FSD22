@@ -1,0 +1,54 @@
+h1{
+    color: darkblue;
+}
+
+body{
+    background-color: skyblue;
+}
+
+p{
+    font-family: cursive;
+}
+
+.info{
+    color: darkred;
+}
+
+.accept{
+    background-color: lightgreen;
+}
+
+.reject{
+    background-color: red;
+}
+
+#accept1{
+    background-color: darkgreen;
+}
+
+#accept2{
+    background-color: lightgreen;
+}
+
+#reject1{
+    background-color: red;
+}
+
+#reject2{
+    background-color: lightcoral;
+}
+
+
+#sample1{
+    color: green;
+}
+
+.sample{
+    color: red;
+}
+
+h2{
+    color: yellow;
+}
+
+
