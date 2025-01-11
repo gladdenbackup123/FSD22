@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: grey;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item{
+    background-color: orange;
+    margin: 10px;
+    border: solid black 1px;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+}
+
+#item2{
+    background-color: lightgreen;
+}
