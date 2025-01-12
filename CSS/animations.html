@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Animations in CSS</title>
+
+        <style>
+            .box{
+                height: 50px;
+                width: 100px;
+                background-color: blue;
+                position: relative;
+                animation: move 4s infinite;
+            }
+            @keyframes move {
+                0%{
+                    left: 0;
+                    top: 0;
+                }
+                25%{
+                    left: 100px;
+                    top:0;
+                }
+                50%{
+                    left: 100px;
+                    top:100px
+                }
+                75%{
+                    left: 0;
+                    top: 100px;
+                }
+                100%{
+                    left: 0;
+                    top: 0;
+                }
+            }
+
+
+            /* @keyframes move {
+                0%{
+                    left: 0;
+                }
+                50%{
+                    left: 200px;
+                }
+                100%{
+                    left: 0;
+                }
+            } */
+        </style>
+    </head>
+        
+    <body>
+        <div class="box"></div>
+        
+    </body>
+</html>

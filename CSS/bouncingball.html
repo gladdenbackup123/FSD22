@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Animations in CSS</title>
+
+        <style>
+            .ground{
+                width: 5000px;
+                height: 20px;
+                background-color: black;
+                position: absolute;
+                animation: move 2s infinite;
+            }
+            .ball{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                border-radius: 50%;
+                position: relative;
+                animation: drop 2s infinite;
+            }
+
+            @keyframes drop {
+                0%{
+                    left: 40%;
+                    top:0;
+                }
+                50%{
+                    left: 40%;
+                    top: 400px;
+                }
+                100%{
+                    left: 40%;
+                    top:100px;
+                }
+            }
+
+            @keyframes move {
+                0%{
+                    bottom: 110px;
+                }
+                100%{
+                    bottom: 110px;
+                }
+            }
+
+        </style>
+    </head>
+        
+    <body>
+        <div class="ball"></div>
+        <div class="ground">Ground</div>
+        
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Animations in CSS</title>
+
+        <style>
+            .box{
+                height: 50px;
+                width: 50px;
+                background-color: orange;
+                animation: box 3s 2s infinite ease-out;
+            }
+
+            @keyframes box {
+                0%{
+                    transform: translateX(100px);
+                }
+                25%{
+                    transform: translateX(500px);
+                }
+                50%{
+                    transform: translateX(500px) translateY(500px);
+                }
+                75%{
+                    transform: translateX(100px) translateY(500px);
+                }
+                100%{
+                    transform: translateX(100px);
+                }
+            }
+
+
+        </style>
+    </head>
+        
+    <body>
+        <div class="box"></div>
+        
+    </body>
+</html>
